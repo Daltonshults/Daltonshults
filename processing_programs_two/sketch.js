@@ -61,8 +61,5 @@ function draw() {
    f=150}
   else{
   f= 50 }
-    
-    
-  
   
 }
