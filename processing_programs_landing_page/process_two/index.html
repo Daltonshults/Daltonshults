@@ -2,51 +2,51 @@
 <html>
   <head>
     <title>Processing Programs</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        height: 1000px;
+      }
+    </style>
   </head>
   <body>
     <!-- beginning of jumbotron -->
 
     <div class="jumbotron shader text-light">
-      <h1 class="display-4">Processing Programs</h1>
+      <h1 class="display-4">Second Sketch</h1>
       <p class="lead">Please feel free to play around!</p>
       <hr class="my-4" />
-      <a class="btn btn-warning btn-lg my-orange" href="../index.html" role="button"
-        >Home Page</a
+      <a
+        class="btn btn-warning my-orange btn-lg"
+        href="../index.html"
+        role="button"
       >
+        Home Page
+      </a>
+      <a
+        class="btn btn-warning my-orange btn-lg"
+        href="../processing_programs/index.html"
+        role="button"
+      >
+        First Drawing
+      </a>
     </div>
 
     <!-- end of jumbotron -->
-
-    <div class="container shader">
-
-        <!-- First row of columns -->
-
-        <div" class="row p-5">
-
-          <div class="col-md-4 mx-auto">
-            <h2 class="text-light">P5.JS Sketch One</h2>
-            <p><a class="btn btn-warning my-orange" href="process/index.html" role="button">View details &raquo;</a></p>
-          </div>
-          
-          <div class="col-md-4">
-            <h2 class="text-light">P5.JS Sketch Two</h2>
-            <p><a class="btn btn-warning my-orange" href="process_two/index.html" role="button">View details &raquo;</a></p>
-          </div>
-          
-          <div class="col-md-4">
-            <h2 class="text-light">P5.JS Sketch Three</h2>
-            <p><a class="btn btn-warning my-orange"  href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-      </div>
-
+    <div class="mx-auto text-center">
+      <h1 class="display-4">This is my second drawing.</h1>
+      <p>Try hovering your cursor over the drawing.</p>
+    </div>
     <div class="mx-auto fixed-bottom">
       <a
         href="../index.html"
@@ -55,7 +55,7 @@
       >
     </div>
   </body>
-
+  <script src="sketch.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
