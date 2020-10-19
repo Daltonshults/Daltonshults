@@ -3,8 +3,8 @@ html, body {
     padding: 0;
   }
   canvas {
+    margin: auto;
     display: block;
-    margin-left: 550px;
-    margin-top: 50px;
-    
+   
   }
+  
