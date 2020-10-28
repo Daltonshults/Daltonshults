@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(160, 160, 160, 0.897);
+    background-color: rgba(66, 66, 66, 0.6);
 }
 
 
@@ -10,7 +10,7 @@ body{
 }
 
 .shader{
-    background-color:  rgb(18, 30, 97);
+    background-color:  rgb(13, 23, 82);
 }
 
 .card-border{
