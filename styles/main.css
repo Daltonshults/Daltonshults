@@ -20,3 +20,7 @@ body{
 .header_color{
     background-color: rgb(15, 26, 90);
 }
+
+.my-height{
+    height: 350px;
+}
