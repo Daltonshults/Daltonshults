@@ -21,8 +21,78 @@ function setup() {
     ellipse(-250,0, 100);
     ellipse(0, -250, 100);
     
+    push()
+    translate(-width / 2, -height / 2, 0);
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
     specularMaterial('rgb(163, 68, 0)');
-    box(250);
+    box(100);
+    pop()
+    
+    push()
+    translate(-width / 4, -height / 4, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    ambientMaterial('rgb(0, 255, 208)');
+    box(100);
+    pop()
+    
+    push()
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    specularMaterial('rgb(163, 68, 0)');
+    box(100);
+    pop()
+    
+    push()
+    translate(width / 4, height / 4, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    ambientMaterial('rgb(0, 255, 208)');
+    box(100);
+    pop()
+    
+    push()
+    translate(width / 2, height / 2, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    specularMaterial('rgb(163, 68, 0)');
+    box(100);
+    pop()
+    
+    push()
+    translate(-width / 4, height / 4, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    ambientMaterial('rgb(0, 255, 208)');
+    box(100);
+    pop()
+    
+    push()
+    translate(-width / 2, height / 2, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    specularMaterial('rgb(163, 68, 0)');
+    box(100);
+    pop()
+    
+    push()
+    translate(width / 4, -height / 4, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    ambientMaterial('rgb(0, 255, 208)');
+    box(100);
+    pop()
+    
+    push()
+    translate(width / 2, -height / 2, 0);
+    rotateX(frameCount * 0.01);
+    rotateY(frameCount * 0.01);
+    specularMaterial('rgb(163, 68, 0)');
+    box(100);
+    pop()
+    
+  
+    
+    
   }
