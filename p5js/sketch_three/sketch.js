@@ -23,8 +23,8 @@ function setup() {
     
     push()
     translate(-width / 2, -height / 2, 0);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
+    rotateX(frameCount * -0.01);
+    rotateY(frameCount * -0.01);
     specularMaterial('rgb(163, 68, 0)');
     box(100);
     pop()
@@ -38,8 +38,8 @@ function setup() {
     pop()
     
     push()
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
+    rotateX(frameCount * -0.01);
+    rotateY(frameCount * -0.01);
     specularMaterial('rgb(163, 68, 0)');
     box(100);
     pop()
@@ -54,8 +54,8 @@ function setup() {
     
     push()
     translate(width / 2, height / 2, 0);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
+    rotateX(frameCount * -0.01);
+    rotateY(frameCount * -0.01);
     specularMaterial('rgb(163, 68, 0)');
     box(100);
     pop()
@@ -70,8 +70,8 @@ function setup() {
     
     push()
     translate(-width / 2, height / 2, 0);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
+    rotateX(frameCount * -0.01);
+    rotateY(frameCount * -0.01);
     specularMaterial('rgb(163, 68, 0)');
     box(100);
     pop()
@@ -86,8 +86,8 @@ function setup() {
     
     push()
     translate(width / 2, -height / 2, 0);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
+    rotateX(frameCount * -0.01);
+    rotateY(frameCount * -0.01);
     specularMaterial('rgb(163, 68, 0)');
     box(100);
     pop()
