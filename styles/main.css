@@ -28,3 +28,8 @@ body{
 .my-width{
     width: 800px;
 }
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
